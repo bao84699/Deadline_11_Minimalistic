@@ -4,6 +4,7 @@
         padding-top: 28px;
         .container {
             width: 360px;
+            margin-left: 0;
             .item2 {
                 display: none;
 

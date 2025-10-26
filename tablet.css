@@ -2,7 +2,7 @@
 @media only screen and (max-width: 1230px) {
     .section1 {
         .container {
-            max-width: 858px;
+            max-width: 866px;
         }
     }
     .section2 {
@@ -112,7 +112,7 @@
                         flex-wrap: wrap;
                         row-gap: 49px;
                         .item {
-                            width: calc((100% - 19px*2)/2);
+                            width: calc((100% - 19px*2 - 86px*2)/2);
                             img {
                                 width: 60px;
                                 height: 60px;
