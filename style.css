@@ -5,7 +5,7 @@
 body {
     font-family: Poppins;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .section1 {
     display: flex;
@@ -18,7 +18,7 @@ body {
         align-items: center;
         justify-content: space-between;
         width: 95%;
-        max-width: 1300px;
+        max-width: 1268px;
         .item1 {
             display: flex;
             gap: 12px;
@@ -302,6 +302,8 @@ body {
             align-items: center;
             position: absolute;
             margin-bottom: 141px;
+            color: var(--text-text-primary, #2A2A2A);
+
             .item1 {
                 display: flex;
                 flex-direction: column;
@@ -403,11 +405,10 @@ body {
     height: 245px;
     background-color: var(--Color-Brand-Green, #285E67);
     .container5 {
-        width: 95%;
-        max-width: 1300px;
+        width: 86%;
+        max-width: 1165px;
         display: flex;
         flex-direction: row;
-        gap: 728px;
         justify-content: space-between;
         align-items: center;
         .logo {
@@ -432,8 +433,8 @@ body {
         }
     }
     .social {
-        max-width: 1300px;
-        width: 95%;
+        max-width: 1165px;
+        width: 86%;
         display: flex;
         gap: 24px;
         justify-content: space-between;
